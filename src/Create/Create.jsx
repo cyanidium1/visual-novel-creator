@@ -17,12 +17,13 @@ const Create = (props) => {
         f2: "p"+e.target.btn2to.value,
         f3: "p"+e.target.btn3to.value
     })
+    document.getElementById("form").reset()
   }
 
   return (
     <div className={styles.create}>
       <h3 className={styles.head}>Enter data</h3>
-      <form className={styles.box} onSubmit={handleSubmit}>
+      <form id="form" className={styles.box} onSubmit={handleSubmit}>
         <input
           className={styles.num}
           type="text"
