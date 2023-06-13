@@ -1,0 +1,33 @@
+* {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.create {
+    max-width: 650px;
+    position:fixed;
+    top: 65px;
+}
+.head {
+    text-align: center;
+}
+textarea {
+    width: 590px;
+    margin: 10px;
+}
+.item {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.num {
+    margin-left: 10px;
+    width: 120px;
+}
+.text {
+    margin-left: 10px;
+    width: 450px;
+}
+.button {
+    margin: 10px;
+}
