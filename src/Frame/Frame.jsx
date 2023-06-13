@@ -5,7 +5,7 @@ const Frame = ({plot}) => {
   const { fr, text, bg, b1, b2, b3, f1, f2, f3 } = plot;
   console.log(plot);
   return (
-    <div className={styles.fr}>
+    <div className={styles.frame}>
       <p className={styles.item}>{bg}</p>
       <p className={styles.item}>{fr}</p>
       <p className={styles.item}>{text}</p>
