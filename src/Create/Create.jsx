@@ -7,15 +7,15 @@ const Create = (props) => {
     e.preventDefault();
     console.log('smth works smth not...');
     props.updPlot({
-      [e.target.frame.value]: {
-        p: e.target.text.value,
+        fr: e.target.frame.value,
+        text: e.target.text.value,
         bg: e.target.bg.value,
         b1: e.target.btn1.value,
         b2: e.target.btn2.value,
         b3: e.target.btn3.value,
         f1: e.target.btn1to.value,
         f2: e.target.btn2to.value,
-        f3: e.target.btn3to.value}
+        f3: e.target.btn3to.value
     })
   }
 

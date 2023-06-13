@@ -3,6 +3,7 @@ import styles from "./Display.module.css";
 import Frame from "../Frame/Frame";
 
 const Display = ({ plot }) => {
+  console.log(plot);
   return (
     <>
       <div className={styles.display}>

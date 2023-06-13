@@ -2,22 +2,22 @@ import React from "react";
 import styles from "./Frame.module.css";
 
 const Frame = ({plot}) => {
-  const { frame, text, bg, btn1, btn2, btn3, btn1to, btn2to, btn3to } = plot;
+  const { fr, text, bg, b1, b2, b3, f1, f2, f3 } = plot;
+  console.log(plot);
   return (
-    <div className={styles.frame}>
-      {/* <img src={bg} alt="" /> */}
+    <div className={styles.fr}>
       <p className={styles.item}>{bg}</p>
-      <p className={styles.item}>{frame}</p>
+      <p className={styles.item}>{fr}</p>
       <p className={styles.item}>{text}</p>
       <div className={styles.btns}>
         <p className={styles.item}>
-          {btn1}: {btn1to}
+          {f1}: {b1}
         </p>
         <p className={styles.item}>
-          {btn2}: {btn2to}
+          {f2}: {b2}
         </p>
         <p className={styles.item}>
-          {btn3}: {btn3to}
+          {f3}: {b3}
         </p>
       </div>
     </div>
