@@ -23,7 +23,7 @@ const Result = ({ plot }) => {
   console.log(output);
   return (
     <div className={styles.output}>
-      <h3 className={styles.head}>Output</h3>
+      <h3 className={styles.head}>Output json file</h3>
       <p className={styles.text}>{output}</p>
     </div>
   );

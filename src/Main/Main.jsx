@@ -3,6 +3,7 @@ import Create from "../Create/Create";
 import Display from "../Display/Display";
 import styles from "./Main.module.css";
 import Result from "../Result/Result";
+import Instructions from "../Instructions/Instructions";
 
 const Main = () => {
   const [plot, changePlot] = useState([
@@ -30,6 +31,7 @@ const Main = () => {
   return (
     <>
       <h1 className={styles.head}>Visual novel creator</h1>
+      <Instructions />
       <div className={styles.main}>
         <Create updPlot={updPlot} />
         <Display plot={plot} deleteItem={deleteItem} />
