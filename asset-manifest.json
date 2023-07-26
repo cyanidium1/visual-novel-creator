@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/visual-novel-creator/static/css/main.2df294bf.css",
-    "main.js": "/visual-novel-creator/static/js/main.d67a76e4.js",
+    "main.css": "/visual-novel-creator/static/css/main.ab6a83be.css",
+    "main.js": "/visual-novel-creator/static/js/main.23a76c53.js",
     "index.html": "/visual-novel-creator/index.html",
-    "main.2df294bf.css.map": "/visual-novel-creator/static/css/main.2df294bf.css.map",
-    "main.d67a76e4.js.map": "/visual-novel-creator/static/js/main.d67a76e4.js.map"
+    "main.ab6a83be.css.map": "/visual-novel-creator/static/css/main.ab6a83be.css.map",
+    "main.23a76c53.js.map": "/visual-novel-creator/static/js/main.23a76c53.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df294bf.css",
-    "static/js/main.d67a76e4.js"
+    "static/css/main.ab6a83be.css",
+    "static/js/main.23a76c53.js"
   ]
 }
