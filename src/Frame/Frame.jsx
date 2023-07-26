@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Frame.module.css";
 
-const Frame = (plot, deleteItem) => {
+const Frame = (plot) => {
   const { fr, text, bg, b1, b2, b3, f1, f2, f3 } = plot.plot;
   console.log(plot.deleteItem);
   return (
@@ -20,9 +20,13 @@ const Frame = (plot, deleteItem) => {
           {f3}: {b3}
         </p>
       </div>
-      <button onClick={() => {plot.deleteItem(plot.plot)}}>Delete</button>
-      {/* <button onClick={renameItem}>Delete</button> */}
-
+      <button
+        onClick={() => {
+          plot.deleteItem(plot.plot);
+        }}
+      >
+        Delete
+      </button>
     </div>
   );
 };

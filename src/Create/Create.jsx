@@ -2,22 +2,21 @@ import React from "react";
 import styles from "./Create.module.css";
 
 const Create = (props) => {
-
   function handleSubmit(e) {
     e.preventDefault();
-    console.log('smth works smth not...');
+    console.log("smth works smth not...");
     props.updPlot({
-        fr: "p"+e.target.frame.value,
-        text: e.target.text.value,
-        bg: e.target.bg.value,
-        b1: e.target.btn1.value,
-        b2: e.target.btn2.value,
-        b3: e.target.btn3.value,
-        f1: "p"+e.target.btn1to.value,
-        f2: "p"+e.target.btn2to.value,
-        f3: "p"+e.target.btn3to.value
-    })
-    document.getElementById("form").reset()
+      fr: "p" + e.target.frame.value,
+      text: e.target.text.value,
+      bg: e.target.bg.value,
+      b1: e.target.btn1.value,
+      b2: e.target.btn2.value,
+      b3: e.target.btn3.value,
+      f1: "p" + e.target.btn1to.value,
+      f2: "p" + e.target.btn2to.value,
+      f3: "p" + e.target.btn3to.value,
+    });
+    document.getElementById("form").reset();
   }
 
   return (
@@ -70,13 +69,13 @@ const Create = (props) => {
           <input
             className={styles.num}
             type="text"
-            name="btn3"
+            name="btn3to"
             placeholder="Btn 3 to"
           />
           <input
             className={styles.text}
             type="text"
-            name="btn3to"
+            name="btn3"
             placeholder="Btn 3 text"
           />
         </div>

@@ -11,14 +11,35 @@ const Instructions = () => {
   };
   return (
     <div className={styles.box}>
-      <button onClick={toggleMenu}>Show info</button>
+      <button onClick={toggleMenu}>Info, FAQ, About</button>
       <p className={styles.text} style={{ display: visibility }}>
-        {" "}
-        А вы думали тут что-то будет?
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, magnam
-        magni dolore reiciendis similique vitae quam omnis quasi repudiandae
-        quisquam ipsa provident. Neque autem necessitatibus, tenetur reiciendis
-        consequuntur quo hic!{" "}
+        Recomended to name images as frames. Do not put "p" before numbers. I
+        used this code to create Urbex Metro novel (it is already in VNE). If
+        you refresh the page scenario will be deleted!
+        <p>/</p>
+        <a
+          href="https://github.com/cyanidium1/visual-novel-creator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source code of VNC
+        </a>
+        <p>/</p>
+        <a
+          href="https://github.com/cyanidium1/visual-novel-engine-v2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source code of VNE
+        </a>
+        <p>/</p>
+        <a
+          href="https://cyanidium1.github.io/visual-novel-engine-v2/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          VNE with Urbex Metro
+        </a>
       </p>
     </div>
   );

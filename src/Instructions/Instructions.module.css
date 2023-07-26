@@ -1,11 +1,14 @@
 .box {
-    position: absolute;
-    top: 26px;
-    left: 20px;
+  position: absolute;
+  top: 26px;
+  left: 20px;
+  opacity: 1;
+  background-color: #fff;
+  z-index: 2;
 }
 .text {
-    z-index: 10;
-    border: 2px solid gray;
-    padding: 10px;
-    border-radius: 10px;
+  z-index: 10;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 10px;
 }
